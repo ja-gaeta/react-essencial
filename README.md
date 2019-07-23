@@ -1,5 +1,5 @@
-# React Total
+# React Essencial
 
-Curso de React, a fantástica biblioteca JavaScript desenvolvida pelo Facebook para criar interfaces de usuário com extrema facilidade.
+Curso de React Básico, a fantástica biblioteca JavaScript desenvolvida pelo Facebook para criar interfaces de usuário com extrema facilidade.
 
-- Selecione a aula desejada na caixa de seleção "Branch" acima.
+- Selecione a aula desejada na caixa de seleção "Branch".
