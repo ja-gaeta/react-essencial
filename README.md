@@ -4,6 +4,6 @@ Curso de React Básico, a fantástica biblioteca JavaScript desenvolvida pelo Fa
 
 - Selecione a aula desejada na caixa de seleção "Branch".
 
-Links úteis:
+### Links úteis:
 
 - VS Code - https://code.visualstudio.com/
