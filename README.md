@@ -4,5 +4,6 @@ Código fonte utilizado na aula 3 do curso.
 
 ### Links úteis
 
-- _Links CDN:_ https://reactjs.org/docs/cdn-links.html
-- _VS Code:_ https://code.visualstudio.com/
+- **Especificações do JSX:** https://facebook.github.io/jsx/
+- **Links CDN:** https://reactjs.org/docs/cdn-links.html
+- **VS Code:** https://code.visualstudio.com/
