@@ -1,34 +1,50 @@
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@16/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"
+    ></script>
+    <title>React Básico</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
-  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
-  <title>React Básico</title>
-</head>
+  <body>
+    <div id="app"></div>
 
-<body>
-  <div id="app"></div>
-
-  <script type="text/babel">
-    class Ola extends React.Component {
-      constructor(props) {
-        super(props);
+    <script type="text/babel">
+      class Ola extends React.Component {
+        constructor(props) {
+          super(props);
+        }
+        render() {
+          return (
+            <div>
+              <h1>
+                Olá {this.props.quem} {this.props.qualidade}!
+              </h1>
+              <h2>{this.props.children}</h2>
+            </div>
+          );
+        }
       }
-      render() {
-        return (
-          <div>
-            <h1>Olá {this.props.quem} {this.props.qualidade}!</h1>
-          </div>
-        )
-      }
-    }
 
-    ReactDOM.render(<Ola quem="gente" qualidade="fina" />, document.getElementById("app"));
+      const ola = (
+        <div>
+          <Ola quem="mundo" qualidade="cruel">
+            A vida é bela.
+          </Ola>
+          <Ola quem="gente">Sejam muito bem vindos!</Ola>
+        </div>
+      );
+
+      ReactDOM.render(ola, document.getElementById("app"));
     </script>
-</body>
-
+  </body>
 </html>
