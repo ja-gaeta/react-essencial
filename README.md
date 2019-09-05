@@ -11,3 +11,5 @@ Curso de React Básico, a fantástica biblioteca JavaScript desenvolvida pelo Fa
 - [Aula 3: Preparando o Cenário](https://github.com/ja-gaeta/react_essencial/tree/aula-03)
 - [Aula 4: Como a Coisa Funciona](https://github.com/ja-gaeta/react_essencial/tree/aula-04)
 - [Aula 5: ES6, props, classes](https://github.com/ja-gaeta/react_essencial/tree/aula-05)
+- [Aula 6: props.children](https://github.com/ja-gaeta/react_essencial/tree/aula-06)
+- [Aula 7: Estado (state)](https://github.com/ja-gaeta/react_essencial/tree/aula-07)
