@@ -1,13 +1,12 @@
-# React Essencial - aula 8
+# React Essencial - aula 9
 
-Código fonte utilizado na aula 8 do curso.
+Código fonte utilizado na aula 9 do curso.
 
 ### Links úteis
 
-- **Especificações do JSX:** https://facebook.github.io/jsx/
-- **Links CDN:** https://reactjs.org/docs/cdn-links.html
-- **VS Code:** https://code.visualstudio.com/
-- **Babel:** https://babeljs.io/
+- **Repositório no Github:** https://github.com/ja-gaeta/react_essencial
+
 - **React:** https://reactjs.org/
 - **Create react app:** https://github.com/facebook/create-react-app
-- **Hooks:** https://reactjs.org/docs/hooks-intro.html
+- **Node.js:** https://nodejs.org/en/
+- **NVM:** https://github.com/coreybutler/nvm-windows

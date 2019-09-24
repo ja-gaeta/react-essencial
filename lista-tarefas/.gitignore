@@ -2,8 +2,6 @@
 
 # dependencies
 /node_modules
-/contador/node_modules
-/lista-tarefas/node_modules
 /.pnp
 .pnp.js
 
