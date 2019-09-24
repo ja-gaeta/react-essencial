@@ -5,6 +5,7 @@
 /.pnp
 .pnp.js
 /contador/node_modules
+/lista-tarefas/node_modules
 
 # testing
 /coverage
