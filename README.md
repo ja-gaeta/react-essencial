@@ -1,6 +1,6 @@
-# React Essencial - aula 9
+# React Essencial - aula 10
 
-Código fonte utilizado na aula 9 do curso.
+Código fonte utilizado na aula 10 do curso.
 
 ### Links úteis
 
