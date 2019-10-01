@@ -6,12 +6,13 @@ Curso de React Básico, a fantástica biblioteca JavaScript desenvolvida pelo Fa
 
 ### Conteúdo das aulas:
 
-- Aula 1: Introdução do Curso React Essencial
-- Aula 2: A Mágica do React
-- [Aula 3: Preparando o Cenário](https://github.com/ja-gaeta/react_essencial/tree/aula-03)
-- [Aula 4: Como a Coisa Funciona](https://github.com/ja-gaeta/react_essencial/tree/aula-04)
-- [Aula 5: ES6, props, classes](https://github.com/ja-gaeta/react_essencial/tree/aula-05)
-- [Aula 6: props.children](https://github.com/ja-gaeta/react_essencial/tree/aula-06)
-- [Aula 7: Estado (state)](https://github.com/ja-gaeta/react_essencial/tree/aula-07)
-- [Aula 8: Estado com Hooks](https://github.com/ja-gaeta/react_essencial/tree/aula-08)
-- [Aula 9: create-react-app](https://github.com/ja-gaeta/react_essencial/tree/aula-09)
+- Aula 01: Introdução do Curso React Essencial
+- Aula 02: A Mágica do React
+- [Aula 03: Preparando o Cenário](https://github.com/ja-gaeta/react_essencial/tree/aula-03)
+- [Aula 04: Como a Coisa Funciona](https://github.com/ja-gaeta/react_essencial/tree/aula-04)
+- [Aula 05: ES6, props, classes](https://github.com/ja-gaeta/react_essencial/tree/aula-05)
+- [Aula 06: props.children](https://github.com/ja-gaeta/react_essencial/tree/aula-06)
+- [Aula 07: Estado (state)](https://github.com/ja-gaeta/react_essencial/tree/aula-07)
+- [Aula 08: Estado com Hooks](https://github.com/ja-gaeta/react_essencial/tree/aula-08)
+- [Aula 09: create-react-app](https://github.com/ja-gaeta/react_essencial/tree/aula-09)
+- [Aula 10: Estrutura de arquivos do CRA](https://github.com/ja-gaeta/react_essencial/tree/aula-10)
