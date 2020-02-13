@@ -1,10 +1,9 @@
-# React Essencial - aula 10
+# React Essencial - aula 11
 
-Código fonte utilizado na aula 10 do curso.
+Código fonte utilizado na aula 11 do curso.
 
 ### Links úteis
 
 - **React:** https://reactjs.org/
-- **Create react app:** https://github.com/facebook/create-react-app
-- **Node.js:** https://nodejs.org/en/
-- **NVM:** https://github.com/coreybutler/nvm-windows
+- **Reactstrap:** https://reactstrap.github.io/
+- **Bootstrap:** https://getbootstrap.com/
