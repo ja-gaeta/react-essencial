@@ -16,3 +16,4 @@ Curso de React Básico, a fantástica biblioteca JavaScript desenvolvida pelo Fa
 - [Aula 08: Estado com Hooks](https://github.com/ja-gaeta/react_essencial/tree/aula-08)
 - [Aula 09: create-react-app](https://github.com/ja-gaeta/react_essencial/tree/aula-09)
 - [Aula 10: Estrutura de arquivos do CRA](https://github.com/ja-gaeta/react_essencial/tree/aula-10)
+- [Aula 11: Criação de uma Lista de Tarefas usando Reactstrap](https://github.com/ja-gaeta/react_essencial/tree/aula-11)
