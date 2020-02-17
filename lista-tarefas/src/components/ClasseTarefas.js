@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Tarefa from './Tarefa'
 
 export default class ClasseTarefas extends Component {
   constructor(props) {
@@ -14,33 +15,34 @@ export default class ClasseTarefas extends Component {
   handleSubmit = e => {
     e.preventDefault()
     const novaTarefa = this.state.tarefaAtual
-    console.log(novaTarefa)
     if (novaTarefa !== '') {
       const tarefas = [...this.state.tarefas, novaTarefa]
       this.setState({
-        tarefas: tarefas
+        tarefas,
+        tarefaAtual: {
+          texto: '',
+          id: ''
+        }
       })
     }
   }
   handleChange = e => {
     this.setState({
       tarefaAtual: {
-        texto: e.target.value
+        texto: e.target.value,
+        id: Date.now()
       }
     })
   }
   render() {
+    const { texto } = this.state.tarefaAtual
     return (
       <div className='container'>
         <form onSubmit={this.handleSubmit}>
-          <input
-            type='text'
-            value={this.state.tarefaAtual.texto}
-            onChange={this.handleChange}
-          />
+          <input type='text' value={texto} onChange={this.handleChange} />
           <button type='submit'>Adicionar</button>
-          <h4>{JSON.stringify(this.state.tarefas)}</h4>
         </form>
+        <Tarefa tarefas={this.state.tarefas} />
       </div>
     )
   }
