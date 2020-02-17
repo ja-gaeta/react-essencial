@@ -18,3 +18,4 @@ Curso de React Básico, a fantástica biblioteca JavaScript desenvolvida pelo Fa
 - [Aula 10: Estrutura de arquivos do CRA](https://github.com/ja-gaeta/react-essencial/tree/aula-10)
 - [Aula 11: Criação de uma Lista de Tarefas usando Reactstrap](https://github.com/ja-gaeta/react-essencial/tree/aula-11)
 - [Aula 12: Organizando a app em componentes e criando o "state"](https://github.com/ja-gaeta/react-essencial/tree/aula-12)
+- [Aula 13: Criação do componente para renderizar a lista de tarefas](https://github.com/ja-gaeta/react-essencial/tree/aula-13)
