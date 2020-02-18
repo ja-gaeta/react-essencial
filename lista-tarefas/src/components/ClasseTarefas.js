@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Tarefa from './Tarefa'
+import { InputGroup, InputGroupAddon, Button, Input } from 'reactstrap'
 
 export default class ClasseTarefas extends Component {
   constructor(props) {
@@ -34,15 +35,29 @@ export default class ClasseTarefas extends Component {
       }
     })
   }
+  deleteTarefa = id => {
+    const filteredTarefas = this.state.tarefas.filter(
+      tarefa => tarefa.id !== id
+    )
+    this.setState({
+      tarefas: filteredTarefas
+    })
+  }
   render() {
     const { texto } = this.state.tarefaAtual
     return (
       <div className='container'>
-        <form onSubmit={this.handleSubmit}>
-          <input type='text' value={texto} onChange={this.handleChange} />
-          <button type='submit'>Adicionar</button>
+        <form onSubmit={this.handleSubmit} className='mb-3'>
+          <InputGroup>
+            <Input type='text' value={texto} onChange={this.handleChange} />
+            <InputGroupAddon addonType='append'>
+              <Button type='submit' color='primary' outline>
+                Adicionar
+              </Button>
+            </InputGroupAddon>
+          </InputGroup>
         </form>
-        <Tarefa tarefas={this.state.tarefas} />
+        <Tarefa tarefas={this.state.tarefas} deleteTarefa={this.deleteTarefa} />
       </div>
     )
   }
