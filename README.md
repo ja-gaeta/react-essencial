@@ -22,3 +22,4 @@ Curso de React Básico, a fantástica biblioteca JavaScript desenvolvida pelo Fa
 - [Aula 14: Criação de componente para deletar tarefas e melhorando o estilo](https://github.com/ja-gaeta/react-essencial/tree/aula-14)
 - [Aula 15: Estilos com arquivo CSS e Styled Components](https://github.com/ja-gaeta/react-essencial/tree/aula-15)
 - [Aula 16: Editando as tarefas](https://github.com/ja-gaeta/react-essencial/tree/aula-16)
+- [Aula 17: Validação da Entrada](https://github.com/ja-gaeta/react-essencial/tree/aula-17)
