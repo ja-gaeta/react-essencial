@@ -1,8 +1,8 @@
-# React Essencial - aula 16
+# React Essencial - aula 17
 
-## Editando as Tarefas
+## Validação da Entrada
 
-Código fonte utilizado na aula 16 do curso.
+Código fonte utilizado na aula 17 do curso.
 
 ### Links úteis
 
@@ -11,8 +11,3 @@ Código fonte utilizado na aula 16 do curso.
 - **Bootstrap:** https://getbootstrap.com/
 - **React Icons:** https://react-icons.netlify.com/#/
 - **Styled Components:** https://styled-components.com/
-
-Canais no Youtube:
-
-- **Ambiente de Desenvolvimento com WSL2 -** https://youtu.be/YcR8pKvjx44
-- **React para Iniciantes -** https://youtu.be/4juIVSWo-pw
