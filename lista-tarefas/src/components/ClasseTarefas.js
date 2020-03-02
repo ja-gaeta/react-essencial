@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Tarefa from './Tarefa'
 import { InputGroup, InputGroupAddon, Button, Input } from 'reactstrap'
+import Alerta from '../components/Alerta'
 
 export default class ClasseTarefas extends Component {
   constructor(props) {
@@ -10,13 +11,14 @@ export default class ClasseTarefas extends Component {
       tarefaAtual: {
         texto: '',
         id: ''
-      }
+      },
+      inputError: false
     }
   }
   handleSubmit = e => {
     e.preventDefault()
     const novaTarefa = this.state.tarefaAtual
-    if (novaTarefa !== '') {
+    if (novaTarefa.texto !== '') {
       const tarefas = [...this.state.tarefas, novaTarefa]
       this.setState({
         tarefas,
@@ -25,14 +27,15 @@ export default class ClasseTarefas extends Component {
           id: ''
         }
       })
-    }
+    } else this.setState({ inputError: true })
   }
   handleChange = e => {
     this.setState({
       tarefaAtual: {
         texto: e.target.value,
         id: Date.now()
-      }
+      },
+      inputError: false
     })
   }
   deleteTarefa = id => {
@@ -73,6 +76,10 @@ export default class ClasseTarefas extends Component {
           tarefas={this.state.tarefas}
           deleteTarefa={this.deleteTarefa}
           updateTarefa={this.updateTarefa}
+        />
+        <Alerta
+          isVisible={this.state.inputError}
+          message='Não pode ficar em branco'
         />
       </div>
     )
