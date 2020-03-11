@@ -1,8 +1,8 @@
-# React Essencial - aula 17
+# React Essencial - aula 18
 
-## Validação da Entrada
+Introdução aos Ciclos de Vida
 
-Código fonte utilizado na aula 17 do curso.
+Código fonte utilizado na aula 18 do curso.
 
 ### Links úteis
 
@@ -11,3 +11,4 @@ Código fonte utilizado na aula 17 do curso.
 - **Bootstrap:** https://getbootstrap.com/
 - **React Icons:** https://react-icons.netlify.com/#/
 - **Styled Components:** https://styled-components.com/
+- **Estado e Ciclo de Vida:** https://pt-br.reactjs.org/docs/state-and-lifecycle.html
