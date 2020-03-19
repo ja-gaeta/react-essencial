@@ -6,6 +6,7 @@
 .pnp.js
 /contador/node_modules
 /lista-tarefas/node_modules
+/lista-tarefas/firebase.js
 
 # testing
 /coverage
