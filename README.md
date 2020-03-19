@@ -1,6 +1,6 @@
 # React Essencial - aula 19
 
-Corrigindo um Bug na Entrada
+Corrigindo um Bug na Edição
 
 Código fonte utilizado na aula 19 do curso.
 
