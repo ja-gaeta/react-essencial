@@ -1,8 +1,8 @@
-# React Essencial - aula 18
+# React Essencial - aula 19
 
-Introdução aos Ciclos de Vida
+Corrigindo um Bug na Entrada
 
-Código fonte utilizado na aula 18 do curso.
+Código fonte utilizado na aula 19 do curso.
 
 ### Links úteis
 
