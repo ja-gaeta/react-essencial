@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import {
   Row,
   Col,
@@ -16,7 +16,14 @@ import Alerta from '../components/Alerta'
 const Tarefa = ({ tarefas, deleteTarefa, updateTarefa }) => {
   const [modal, setModal] = useState(false)
   const [visible, setVisible] = useState(false)
+  const [currentId, setCurrentId] = useState('')
+  const [currentText, setCurrentText] = useState('')
   const toggle = () => setModal(!modal)
+
+  useEffect(() => {
+    updateTarefa(currentText, currentId)
+  }, [updateTarefa, currentId, currentText])
+
   const listaDasTarefas = tarefas.map(tarefa => {
     return (
       <div key={tarefa.id}>
@@ -28,7 +35,12 @@ const Tarefa = ({ tarefas, deleteTarefa, updateTarefa }) => {
                 <IconButton onClick={() => deleteTarefa(tarefa.id)}>
                   <FaTrashAlt />
                 </IconButton>
-                <IconButton onClick={toggle}>
+                <IconButton
+                  onClick={() => {
+                    setModal(true)
+                    setCurrentId(tarefa.id)
+                    setCurrentText(tarefa.texto)
+                  }}>
                   <FaPencilAlt />
                 </IconButton>
               </span>
@@ -38,13 +50,14 @@ const Tarefa = ({ tarefas, deleteTarefa, updateTarefa }) => {
         <Modal isOpen={modal} toggle={toggle} backdrop={false} centered={true}>
           <ModalHeader toggle={toggle}>Editar Tarefa</ModalHeader>
           <ModalBody>
+            {console.log(tarefa.id)}
             <Input
               type='text'
-              id={tarefa.id}
-              value={tarefa.texto}
+              value={currentText}
               onChange={e => {
                 if (e.target.value.length > 0) {
-                  updateTarefa(e.target.value, tarefa.id)
+                  setCurrentText(e.target.value)
+                  setCurrentId(currentId)
                   setVisible(false)
                 } else {
                   setVisible(true)
