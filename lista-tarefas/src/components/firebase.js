@@ -2,7 +2,7 @@ import firebase from 'firebase'
 
 //*********************************
 // ATENÇÃO: Substitua as configurações abaixo com as do seu projeto
-// pessoal no Firebase.
+//          pessoal no Firebase.
 //
 
 const config = {
