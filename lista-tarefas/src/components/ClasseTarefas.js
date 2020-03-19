@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Tarefa from './Tarefa'
 import { InputGroup, InputGroupAddon, Button, Input } from 'reactstrap'
 import Alerta from '../components/Alerta'
+import firebase from './firebase'
 
 export default class ClasseTarefas extends Component {
   constructor(props) {
@@ -14,6 +15,15 @@ export default class ClasseTarefas extends Component {
       },
       inputError: false
     }
+  }
+  componentDidMount() {
+    const fetchData = async () => {
+      const db = firebase.firestore()
+      const data = await db.collection('tarefas').get()
+      const tarefas = data.docs.map(doc => ({ ...doc.data(), id: doc.id }))
+      this.setState({ tarefas })
+    }
+    fetchData()
   }
   handleSubmit = e => {
     e.preventDefault()
