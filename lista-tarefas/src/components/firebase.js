@@ -10,7 +10,7 @@ const config = {
   authDomain: 'react-essencial-745ed.firebaseapp.com',
   databaseURL: 'https://react-essencial-745ed.firebaseio.com',
   projectId: 'react-essencial-745ed',
-  storageBucket: 'react-essencial-745ed.appspot.com',
+  storageBucket: 'use sua configuração pessoal',
   messagingSenderId: 'use sua configuração pessoal',
   appId: 'use sua configuração pessoal'
 }
