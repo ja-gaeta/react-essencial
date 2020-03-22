@@ -6,10 +6,10 @@ import firebase from 'firebase'
 //
 
 const config = {
-  apiKey: 'AIzaSyAuZ8nxI1H9D-mFZQ9wGL-xLzqsSRDXYBo',
-  authDomain: 'react-essencial-745ed.firebaseapp.com',
-  databaseURL: 'https://react-essencial-745ed.firebaseio.com',
-  projectId: 'react-essencial-745ed',
+  apiKey: 'use sua configuração pessoal',
+  authDomain: 'use sua configuração pessoal',
+  databaseURL: 'use sua configuração pessoal',
+  projectId: 'use sua configuração pessoal',
   storageBucket: 'use sua configuração pessoal',
   messagingSenderId: 'use sua configuração pessoal',
   appId: 'use sua configuração pessoal'
