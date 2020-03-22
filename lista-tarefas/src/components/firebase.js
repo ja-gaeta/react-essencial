@@ -6,13 +6,13 @@ import firebase from 'firebase'
 //
 
 const config = {
-  apiKey: '<copie suas configurações pessoais>',
-  authDomain: '<copie suas configurações pessoais>',
-  databaseURL: '<copie suas configurações pessoais>',
-  projectId: '<copie suas configurações pessoais>',
-  storageBucket: '<copie suas configurações pessoais>',
-  messagingSenderId: '<copie suas configurações pessoais>',
-  appId: '<copie suas configurações pessoais>'
+  apiKey: 'AIzaSyAuZ8nxI1H9D-mFZQ9wGL-xLzqsSRDXYBo',
+  authDomain: 'react-essencial-745ed.firebaseapp.com',
+  databaseURL: 'https://react-essencial-745ed.firebaseio.com',
+  projectId: 'react-essencial-745ed',
+  storageBucket: 'react-essencial-745ed.appspot.com',
+  messagingSenderId: '447708156828',
+  appId: '1:447708156828:web:acc4fab9c7c7ef125aee59'
 }
 // Initialize Firebase
 firebase.initializeApp(config)
