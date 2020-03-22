@@ -12,7 +12,7 @@ const config = {
   projectId: 'react-essencial-745ed',
   storageBucket: 'react-essencial-745ed.appspot.com',
   messagingSenderId: '447708156828',
-  appId: '1:447708156828:web:acc4fab9c7c7ef125aee59'
+  appId: 'use sua configuração pessoal'
 }
 // Initialize Firebase
 firebase.initializeApp(config)
