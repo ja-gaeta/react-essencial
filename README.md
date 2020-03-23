@@ -26,3 +26,4 @@ Curso de React Básico, a fantástica biblioteca JavaScript desenvolvida pelo Fa
 - [Aula 18: Introdução aos Ciclos de Vida](https://github.com/ja-gaeta/react-essencial/tree/aula-18)
 - [Aula 19: Corrigindo um Bug na Edição](https://github.com/ja-gaeta/react-essencial/tree/aula-19)
 - [Aula 20: Persistindo os Dados no Firebase](https://github.com/ja-gaeta/react-essencial/tree/aula-20)
+- [Aula 21: React CRUD no Firebase](https://github.com/ja-gaeta/react-essencial/tree/aula-21)
