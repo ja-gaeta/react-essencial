@@ -30,6 +30,8 @@ export default class ClasseTarefas extends Component {
     const novaTarefa = this.state.tarefaAtual
     if (novaTarefa.texto !== '') {
       const tarefas = [...this.state.tarefas, novaTarefa]
+      const db = firebase.firestore()
+      db.collection('tarefas').add({ texto: novaTarefa.texto })
       this.setState({
         tarefas,
         tarefaAtual: {
@@ -55,12 +57,20 @@ export default class ClasseTarefas extends Component {
     this.setState({
       tarefas: filteredTarefas
     })
+    const db = firebase.firestore()
+    db.collection('tarefas')
+      .doc(id)
+      .delete()
   }
   updateTarefa = (texto, id) => {
     const tarefas = this.state.tarefas
     tarefas.map(tarefa => {
       if (tarefa.id === id) {
         tarefa.texto = texto
+        const db = firebase.firestore()
+        db.collection('tarefas')
+          .doc(tarefa.id)
+          .set({ texto })
       }
       return null
     })

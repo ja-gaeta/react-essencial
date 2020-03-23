@@ -6,13 +6,13 @@ import firebase from 'firebase'
 //
 
 const config = {
-  apiKey: 'use sua configuração pessoal',
-  authDomain: 'use sua configuração pessoal',
-  databaseURL: 'use sua configuração pessoal',
-  projectId: 'use sua configuração pessoal',
-  storageBucket: 'use sua configuração pessoal',
-  messagingSenderId: 'use sua configuração pessoal',
-  appId: 'use sua configuração pessoal'
+  apiKey: 'substitua com sua própria configuração',
+  authDomain: 'substitua com sua própria configuração',
+  databaseURL: 'substitua com sua própria configuração',
+  projectId: 'substitua com sua própria configuração',
+  storageBucket: 'substitua com sua própria configuração',
+  messagingSenderId: 'substitua com sua própria configuração',
+  appId: 'substitua com sua própria configuração'
 }
 // Initialize Firebase
 firebase.initializeApp(config)
